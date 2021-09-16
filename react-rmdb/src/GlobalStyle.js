@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-        --maxWidth: 1280px;
+        --maxWidth: 1280Spx;
         --white: #fff;
         --lightGrey: #eee;
         --medGrey: #353535;
@@ -31,10 +31,9 @@ export const GlobalStyle = createGlobalStyle`
             font-weight: 600;
         }
         p{
-            font-size: 2rem;
+            font-size: 1rem;
             color: var(--white);
         }
-        
     }
 
-`
+`;
