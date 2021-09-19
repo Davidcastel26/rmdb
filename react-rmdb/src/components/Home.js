@@ -33,7 +33,7 @@ const Home = () => {
                         clickable
                         image={
                         movie.poster_path
-                        ? IMAGE_BASE_URL + POSTER_SIZE + movied.poster_path
+                        ? IMAGE_BASE_URL + POSTER_SIZE + movie.poster_path
                         : NoImage
                         }
                         movieId={movie.id}
